@@ -17,18 +17,10 @@ public class App {
         pollobj(drone);
     }
 
-    private static void pollobj(Queen obj) {
+    private static void pollobj(HoneyBee obj) {
          output(obj.DoYourJob());
     }
    
-    private static void pollobj(Worker obj) {
-         output(obj.DoYourJob());
-    }
-    
-    private static void pollobj(Drone obj) {
-         output(obj.DoYourJob());
-    }
-
     private static void output(String outputStr) {
         System.out.println(outputStr);
     }
